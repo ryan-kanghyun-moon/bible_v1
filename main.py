@@ -12,7 +12,7 @@ def main():
         
     url = URL3
     
-    verse = string_mod.get_verse(soup.soup_to_trim_text(soup.init_string(url)))
+    verse = string_mod.get_verse(soup.trim_text(soup.init_string(url)))
 
     print(verse)
 
