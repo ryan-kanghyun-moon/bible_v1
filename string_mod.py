@@ -1,3 +1,4 @@
+# check if given string is an int
 def is_integer(n):
     try:
         int(n)
@@ -6,7 +7,7 @@ def is_integer(n):
     else:
         return True
 
-
+# get verse and insert \n where needed
 def get_verse(raw_bib):
 
     # gets rid of '\n'

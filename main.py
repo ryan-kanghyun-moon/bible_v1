@@ -1,14 +1,10 @@
-# import requests, pprint
 import string_mod as string_mod
-# from bs4 import BeautifulSoup
 import soup as soup
 
 URL ='https://www.monster.com/jobs/search/?q=Software-Developer&where=Australia'
 URL1 = 'https://maria.catholic.or.kr/mi_pr/missa/missa.asp'
 URL2 = 'http://mobile2.catholic.or.kr/web/bible/bible_jeol.asp?gubuncode=new2&bbl_code=147&bbl_chptNum=1&flag=1'
 URL3 = 'https://missa.cbck.or.kr/DailyMissa/20210503'
-# page = requests.get(URL3)
-# soup = BeautifulSoup(page.content, 'html.parser')
 
 
 def main():
