@@ -9,7 +9,6 @@ def is_integer(n):
 
 # get verse and insert \n where needed
 def get_verse(raw_bib):
-    print(raw_bib)
     # gets rid of '\n'
     lines = raw_bib.splitlines()
     i = 0
