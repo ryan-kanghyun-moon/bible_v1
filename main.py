@@ -1,6 +1,4 @@
-import string_mod as string_mod
-import soup as soup
-import ui as ui
+import ui 
 
 
 def main():
