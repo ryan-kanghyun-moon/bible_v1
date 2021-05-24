@@ -8,7 +8,12 @@ def print_date(date):
 
 def print_verse(url):
     verse = string_mod.get_verse(soup.init_string(url))
-    print(verse)
+
+    if verse == False:
+        fail_inp()
+    
+    else:
+        print(verse)
 
 #ui for getting date or today
 def print_today():
