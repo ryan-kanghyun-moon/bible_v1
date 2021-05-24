@@ -11,6 +11,9 @@ def is_integer(n):
 def get_verse(raw_bib):
     # gets rid of '\n'
     lines = raw_bib.splitlines()
+    
+    if len(lines) == 0:
+        return False
     i = 0
     # find the first int = intro and make it a seperate line
     while not is_integer(lines[i][:1]):
