@@ -28,3 +28,8 @@ I am planning to build a website to make this program accessible anywhere. I wil
 ---
 ## Copyright
 All content was scraped without consent from [this website](https://missa.cbck.or.kr/DailyMissa/20210503)
+
+---
+## 한국어 설명
+이 프로그램은 [이 웹사이트](https://missa.cbck.or.kr/DailyMissa/20210503) 에서 복음 부분을 **한 줄 당 하나의 구절** 포멧으로 바꾸어 줍니다.  
+``python ./main.py  ``로 실행할 수 있고 안내를 따라하면 됩니다. 
